@@ -10,6 +10,9 @@ class UsersController extends Controller
 {
     public function create()
     {
+        if (Auth::user()) {
+            return redirect()->route('users.show', Auth::user()->id);
+        }
         return view('users.create');
     }
 
