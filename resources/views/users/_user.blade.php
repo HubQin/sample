@@ -10,5 +10,11 @@
         <button type="submit" class="btn btn-sm btn-danger delete-btn">删除</button>
     </form>
     @endcan
+    @can('update', $user)
+    <form action="" method="post">
+        {{ csrf_field() }}
+      <a href="{{ route('users.edit', $user->id) }}" class="btn btn-sm btn-danger delete-btn">Modify Account</a>
+    </form>
+    @endcan
 </li>
 @endforeach
