@@ -1,10 +1,7 @@
 <div class="col-md-12">
     <footer class="footer">
         <small class="slogon">
-            <img class="brand-icon" src="https://lccdn.phphub.org/uploads/images/201612/12/1/iq7WQc2iuW.png?imageView2/1/w/34/h/34">
-            <a href="https://laravel-china.org/courses">
-              刻意练习，每日精进
-            </a>
+            由 <a href="https://avatars3.githubusercontent.com/u/25000531?s=40&v=4" target="_blank">Qin</a> 设计和编码 <span style="color: #e27575;font-size: 14px;">❤</span>
         </small>
         <nav>
             <ul>
