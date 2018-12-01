@@ -21,9 +21,9 @@
     </div>
   @else
     <div class="jumbotron">
-      <h1>Hello World!</h1>
+      <h1>Welcome to Simple Twitter!</h1>
       <p class="lead">
-        你现在所看到的是WeeTalk的项目主页。
+        你现在所看到的是Simple Twitter的项目主页。
       </p>
       <p>
         一切，将从这里开始。
